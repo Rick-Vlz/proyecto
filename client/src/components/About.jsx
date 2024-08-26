@@ -47,7 +47,7 @@ const About = () => {
                                 </div>
                                 <div className="flex-grow">
                                     <p className="leading-relaxed text-base text-gray-600">
-                                        Built to withstand harsh weather conditions and provide long-lasting performance.
+                                        Contamos con paneles construidos y ensamblados con los mejores materiales, asegurando una larga vida útil.
                                     </p>
                                 </div>
                             </div>
