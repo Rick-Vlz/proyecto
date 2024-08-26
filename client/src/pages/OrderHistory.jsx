@@ -26,7 +26,7 @@ export function OrderHistory() {
                     Mis ordenes
                   </h2>
 
-                  <div className="mt-6 gap-4 space-y-4 sm:mt-0 sm:flex sm:items-center sm:justify-end sm:space-y-0">
+                  {/* <div className="mt-6 gap-4 space-y-4 sm:mt-0 sm:flex sm:items-center sm:justify-end sm:space-y-0">
                     <div>
                       <label
                         htmlFor="order-type"
@@ -69,7 +69,8 @@ export function OrderHistory() {
                         <option value="this year">este año</option>
                       </select>
                     </div>
-                  </div>
+                  </div> */}
+                  
                 </div>
 
                 <div className="mt-6 flow-root sm:mt-8">

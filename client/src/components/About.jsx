@@ -31,7 +31,7 @@ const About = () => {
                         </div>
                         {/* Características a la derecha */}
                         <div className="p-4 md:w-1/2 w-full flex flex-col space-y-4">
-                            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                            <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow-lg">
                                 <div className="flex items-center mb-3">
                                     <h3 className="text-gray-900 text-lg title-font font-medium">Alta eficiencia</h3>
                                 </div>
@@ -41,7 +41,7 @@ const About = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                            <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow-lg">
                                 <div className="flex items-center mb-3">
                                     <h3 className="text-gray-900 text-lg title-font font-medium">Larga duración</h3>
                                 </div>
@@ -51,7 +51,7 @@ const About = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                            <div className="flex rounded-lg h-full bg-white p-8 flex-col shadow-lg">
                                 <div className="flex items-center mb-3">
                                     <h3 className="text-gray-900 text-lg title-font font-medium">Instalación completa</h3>
                                 </div>

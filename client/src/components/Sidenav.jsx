@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import SSLogo from '../assets/SSLogosvg.svg';
 
 const Sidenav = ({ sidenavOpen, setSidenavOpen, logoutHandler, userInfo }) => {
     const sidenavRef = useRef(null);
@@ -29,8 +30,8 @@ const Sidenav = ({ sidenavOpen, setSidenavOpen, logoutHandler, userInfo }) => {
                 {/* Header del Sidenav */}
                 <div className="p-4 flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                        <img src="https://www.svgrepo.com/show/529971/sun-2.svg" className="h-8" alt="Solar Solutions Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-900">Solar Solutions</span>
+                        <img src={SSLogo} className="h-8" alt="Flowbite Logo" />
+                        <span className="self-center text-lg font-semibold whitespace-nowrap text-gray-900">Solar Solutions</span>
                     </div>
                 </div>
 
