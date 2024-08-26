@@ -72,7 +72,7 @@ export default function Checkout({ open, setOpen }) {
                     <p>${total}</p>
                   </div>
                   <p className="mt-0.5 text-sm text-gray-500">
-                    Shipping and taxes calculated at checkout.
+                    Envío e instalación son calculados en checkout.
                   </p>
                   <div className="mt-6">
                     <Link
@@ -90,7 +90,7 @@ export default function Checkout({ open, setOpen }) {
                         onClick={() => setOpen(false)}
                         className="font-medium text-indigo-600 hover:text-indigo-500"
                       >
-                        Continue Shopping
+                        Continuar comprando
                         <span aria-hidden="true"> &rarr;</span>
                       </button>
                     </p>

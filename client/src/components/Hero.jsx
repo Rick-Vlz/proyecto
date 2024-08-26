@@ -5,15 +5,12 @@ import { productListAction } from "../Redux/Actions/Product"
 
 const Hero = () => {
     const dispatch = useDispatch();
-    const productListReducer = useSelector((state) => state.productListReducer);
-    const { loading, error, products = []} = productListReducer;
 
     useEffect(() => {
         dispatch(productListAction());
     }, [dispatch]);
     return (
         <div>
-            {loading ? (<h1>loading</h1>) : error ? (<h1>{error}</h1>) : (
                 <>
                 <section className="text-gray-600 body-font">
             <div className="container mx-auto flex px-5 pt-20 md:flex-row flex-col items-center">
@@ -28,11 +25,8 @@ const Hero = () => {
                 </div>
             </div>
         </section>
-
-                </>)}
-        </div>
-
-        
+                </>
+        </div> 
     )
 };
 

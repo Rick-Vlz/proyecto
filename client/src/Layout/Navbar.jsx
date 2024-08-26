@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { userLogoutAction } from "../Redux/Actions/User";
 import Checkout from "../pages/Checkout";
 import Sidenav from '../components/Sidenav';
+import SSLogo from '../assets/SSLogosvg.svg';
 import { useState } from "react";
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
             <nav className="bg-white border-gray-200 dark:bg-gray-900 fixed top-0 left-0 right-0 z-50 shadow-lg">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://www.svgrepo.com/show/529971/sun-2.svg" className="h-8" alt="Flowbite Logo" />
+                        <img src={SSLogo} className="h-8" alt="Flowbite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Solar Solutions</span>
                     </Link>
                     <div className="flex md:order-2">
