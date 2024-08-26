@@ -9,6 +9,7 @@ import Checkout from './pages/Checkout';
 import PlaceOrder from "./pages/PlaceOrder";
 import OrderConfirmation from "./pages/OrderConfirm";
 import { OrderHistory } from "./pages/OrderHistory";
+import PrivacyPolicy from './pages/PrivacyPolicy';
 function App() {
   const userLoginReducer = useSelector((state)=> state.userLoginReducer)
   const {userInfo} = userLoginReducer
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/placeorder" element={<PlaceOrder />}></Route>
           <Route path="/order/:id" element={<OrderConfirmation />} />
           <Route path="/order-history" element={<OrderHistory />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </Router>
     </>
